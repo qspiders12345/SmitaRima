@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.TESTActitimeCustomer">
+        <methods>
+          <include name="close"/>
+          <include name="customer"/>
+          <include name="openBrowser"/>
+          <include name="open"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TESTActitimeCustomer -->
+      <class name="test.TESTActitimeWork">
+        <methods>
+          <include name="close"/>
+          <include name="openBrowser"/>
+          <include name="open"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TESTActitimeWork -->
+      <class name="test.TESTActitimeLogin">
+        <methods>
+          <include name="close"/>
+          <include name="openBrowser"/>
+          <include name="open"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TESTActitimeLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
